@@ -21,12 +21,11 @@ public class Problem22 {
         var b = scanner.nextInt();
 
         System.out.println(checkGameTime(a, b));
-
     }
     private static String checkGameTime(int a, int b){
         if(a == b) return "O JOGO DUROU 24 HORA(S)";
         if(a >= 12 ) return "O JOGO DUROU " + ((24 - a) + b) + " HORA(S)";
 
-        return "O JOGO DUROU "+ (-(a - b)) + " HORA(S)";
+        return "O JOGO DUROU "+ (b - a) + " HORA(S)";
     }
 }
