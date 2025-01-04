@@ -1,3 +1,5 @@
+package org.example.beginner;
+
 import java.util.*;
 
 /*
@@ -33,7 +35,7 @@ Z segundo(s)
 Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
 */
 
-public class Main {
+public class Problem31 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         var a = scanner.nextLine();

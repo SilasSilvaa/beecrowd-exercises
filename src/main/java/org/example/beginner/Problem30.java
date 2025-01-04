@@ -1,3 +1,5 @@
+package org.example.beginner;
+
 import java.util.*;
 
 /*
@@ -12,7 +14,7 @@ Saída
 Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 */
 
-public class Main {
+public class Problem30 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         float num1 = scanner.nextFloat();
